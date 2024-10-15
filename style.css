@@ -2,3 +2,69 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  min-height: 100svh;
+}
+
+.hero-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #dadada;
+}
+
+h1 {
+  font-size: 25px;
+}
+h2 {
+  color: rgb(190, 0, 0);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card-container {
+  background-color: #000033;
+
+  display: flex;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.img-container {
+  width: 200px;
+}
+
+.card-details {
+  border: 1px black solid;
+  display: flex;
+  /* justify-content: space-around;
+  width: 200px; */
+  gap: 20px;
+}
+
+.item {
+  border: 1px black solid;
+}
+.label {
+  color: rgb(190, 0, 0);
+}
+.details-container {
+  padding: 30px;
+}
+
+.description {
+  margin-top: 20px;
+}
